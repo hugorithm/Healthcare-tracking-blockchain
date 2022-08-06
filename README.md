@@ -17,5 +17,5 @@ This project uses Blockchain Technology to ensure a tamper-proof, immutable, con
 ## Stack
 
 - [Hyperledger Fabric](https://www.hyperledger.org/) 
-- [Javascript](https://www.javascript.com/ 
+- [Javascript](https://www.javascript.com/) 
 - [Go](https://go.dev/) 
