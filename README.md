@@ -1,5 +1,6 @@
 # Healthcare-tracking-blockchain
 Healthcare Data Tracking Blockchain Network
+![Hyperledger](blockchain.png)
 
 This is the project that I chose for my Master's Dissertation. 
 It is a Blockchain Network based on Hyperledger Fabric that is used to track Healthcare patient data through various beacons. 
