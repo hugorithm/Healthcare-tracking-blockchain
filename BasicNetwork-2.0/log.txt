@@ -1,0 +1,21 @@
+Installed chaincodes on peer:
+Package ID: fabcar_2:9929008cc4fdf4245e1c07f58b76b3d52396c25db482a123484f7f4e0509257d, Label: fabcar_2
+Package ID: fabcar_3:5bfbb9b19de4753fb85cf4781ec2c5d12991d7f19ba83539856275bc0c26c174, Label: fabcar_3
+Package ID: fabcar_5:b06eb288fa84b5cc041a5928d44d6c33054f095fd0110351ba9be55a0eac17e8, Label: fabcar_5
+Package ID: fabcar_8:c1d92548a921396d814c6f8f6bba6ff1ce061a7901d695c2483659422bf8b66d, Label: fabcar_8
+Package ID: tracking_2:68bcbdea10f5dfab7d4ba96cc4fa8b6676ad17449df8eafa8b26fa2b26ef5775, Label: tracking_2
+Package ID: tracking_4:634c6593e6007583cb74499506b5003f4c465f90c0a593263a3afebabe027b05, Label: tracking_4
+Package ID: tracking_5:4a16361a80f560698a7629135348132c4673f6cf033cc2d22c1813749f59629f, Label: tracking_5
+Package ID: fabcar_11:5f1dd904c03749f1493ea1ddddbeed4c42cfb6cd1156f05b1480b4b960fc5498, Label: fabcar_11
+Package ID: fabcar_7:d1e892e450d3325d633b30e606fbc1e598a907aafa2e5a62e95858079b2fc9d2, Label: fabcar_7
+Package ID: fabcar_9:0d992f1ec977d7a7c5c7a6536324f7878578184dcb4c36159f8c3b5735c61560, Label: fabcar_9
+Package ID: tracking_3:23bef899e2f3d113dd486dcaae4156184f610e8fd1f4c0e0d013ef4eb726ee83, Label: tracking_3
+Package ID: fabcar_10:fa3b8e6dc9a77e99545874926e7d14b60af0b09d065608e1fa5ce808f2475b94, Label: fabcar_10
+Package ID: fabcar_4:659f1f8595215953ec7df7da36f695295cee834df33c3a0c6073a793df9a8c16, Label: fabcar_4
+Package ID: fabcar_7:d828ce3b766cb9c501d54b1d109b44ae02217e1e6cd13fd615675d3178bd596b, Label: fabcar_7
+Package ID: fabcar_12:e8642d2707539f9832dd9250307bf737a0dd58f246fbf1d0b19258d9e605fc2a, Label: fabcar_12
+Package ID: fabcar_2:bb56ef8802d0316f81fe738eef984f961d91a775901f680db3d0e91b3a2eb54f, Label: fabcar_2
+Package ID: fabcar_6:008cf245ec89abe8296ba26b4f7f758dec01672f72f8d718a452f3d39c7a7d85, Label: fabcar_6
+Package ID: fabcar_6:8ff69347df5a1236eff17e952f0d146d0797a0bd89c3fa1ad1f6b9b15b68c1c6, Label: fabcar_6
+Package ID: tracking_1:08a12d13821a4e1f39f1a29b19370c4bc4945db7c1d037bf5b1dab7a7cf34f54, Label: tracking_1
+Package ID: fabcar_1:1dd398614922542144233a2881776bf3c2d91959152419630f93c286dd570467, Label: fabcar_1

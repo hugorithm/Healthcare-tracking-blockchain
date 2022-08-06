@@ -1,0 +1,140 @@
+test:
+  workers:
+    type: local
+    number: 1
+  rounds:
+    # - label: Create a car.
+    #   txDuration:
+    #     - 30
+    #   rateControl:
+    #     - type: fixed-load
+    #       opts:
+    #         transactionLoad: 5
+    #   workload:
+    #     module: benchmarks/samples/fabric/fabcar/createCar.js
+    # - label: Create Beacon
+    #   txNumber: 1000
+    #   rateControl:
+    #     type: fixed-rate
+    #     opts:
+    #       tps: 40
+    #   workload:
+    #     module: benchmarks/scenario/simple/pavan-v2.2/open.js
+    # - label: Query a car.
+    #   rateControl:
+    #     - type: fixed-load
+    #       opts:
+    #         transactionLoad: 5
+    #   workload:
+    #     module: benchmarks/samples/fabric/pavan-v2.2/queryCar.js
+    #     arguments:
+    #       assets: 1000
+    - label: Create Beacon
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/createBeacon.js
+
+    - label: Create Medico
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/createMedico.js    
+
+    - label: Create Doente
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/createDoente.js    
+
+    - label: Create Dispositivo Medico
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/createDispMedico.js
+
+    - label: Change Sala property of Beacon
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/changeBeaconSala.js    
+
+    - label: Change Sala property of Doente
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/changeDoenteSala.js  
+
+    - label: Change Sala property of Dispositivo Medico
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/changeDispMedSala.js  
+
+    - label: Change Medico property of Dispositivo Medico
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/changeDispMedMedico.js  
+
+    - label: Change Doente property of Dispositivo Medico
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/changeDispMedDoente.js  
+
+    - label: Get History of Asset
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/getHistoryForAsset.js  
+    # - label: Query_Car_1
+    #   txDuration:
+    #   - 30
+    #   rateControl:
+    #   - type: fixed-load
+    #     opts:
+    #       transactionLoad: 5
+    #   workload:
+    #     module: benchmarks/samples/fabric/pavan-v2.2/queryCar.js
+    #     arguments:
+    #       assets: 1000
+    # - label: Create_Car_1
+    #   txDuration:
+    #   - 30
+    #   rateControl:
+    #     - type: fixed-load
+    #       opts:
+    #         transactionLoad: 5
+    #   workload:
+    #     module: benchmarks/scenario/simple/pavan-v2.2/createCar.js
